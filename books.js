@@ -63,7 +63,7 @@
     return Math.floor(Math.random() * array.length)
  };
 
- function generateRecommendations() {
+
  //stores result of for in
  let recommendations = [];
 
@@ -87,4 +87,8 @@
              break;
      }
  }
-}
+
+ recommendations.forEach(item => console.log(item));
+
+
+
